@@ -16,4 +16,5 @@ cli.prepare({
     // configPath: ''
 }, function(env){
     console.log('env', env);
+    // 在这里可以通过require加载配置文件
 });
